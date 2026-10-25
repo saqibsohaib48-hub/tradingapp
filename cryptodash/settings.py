@@ -6,12 +6,17 @@ import os
 from dataclasses import asdict, dataclass, fields
 from pathlib import Path
 
-_DEFAULT_DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+# state/ is committed to git: the hourly GitHub Action trades the demo account
+# there and pushes it back, and the dashboard reads the same files.
+_DEFAULT_DATA_DIR = PROJECT_ROOT / "state"
 
 
 def data_dir() -> Path:
-    """Where settings and the demo account live. Override with CRYPTODASH_DATA."""
-    return Path(os.environ.get("CRYPTODASH_DATA", _DEFAULT_DATA_DIR))
+    """Where settings and the demo account live. Override with CRYPTODASH_DATA
+    (a relative path is taken from the project folder)."""
+    p = Path(os.environ.get("CRYPTODASH_DATA", _DEFAULT_DATA_DIR))
+    return p if p.is_absolute() else PROJECT_ROOT / p
 
 
 @dataclass

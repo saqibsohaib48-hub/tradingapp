@@ -37,6 +37,10 @@ Your browser opens at `http://localhost:8501`.
 
 Turn on **Auto paper-trade** to have every PASS setup opened on the demo account automatically, and **Auto-refresh** to re-scan on a timer.
 
+### Run it 24/7 for free (GitHub Actions)
+
+`.github/workflows/scan.yml` runs `scan.py --auto-trade` every hour on GitHub's servers and commits the demo account to `state/`. The dashboard reads the same `state/` folder, so it shows those trades even if nobody had the page open. Keep **Auto paper-trade** off in the dashboard so only the hourly job trades. Change the rules by editing `state/settings.json` on GitHub. Start a run by hand from the **Actions** tab → **Hourly scan** → **Run workflow**.
+
 ### From the terminal
 
 ```bash
