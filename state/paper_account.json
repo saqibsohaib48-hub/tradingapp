@@ -1,8 +1,41 @@
 {
   "starting_balance": 50.0,
-  "cash": 50.0,
+  "cash": 29.478879949947626,
   "peak_equity": 50.0,
-  "positions": [],
+  "positions": [
+    {
+      "id": "d9c130b4",
+      "symbol": "ZECUSDT",
+      "strategy": "breakout",
+      "entry": 1233.066225,
+      "planned_entry": 1232.45,
+      "stop": 1195.92,
+      "target": 1305.52,
+      "qty": 0.00622253,
+      "risk_usd": 0.25,
+      "fees": 0.00767279157704925,
+      "opened_at": "2026-10-25T18:21:55.524480+00:00",
+      "signal_bar": "2026-10-25 17:00:00+00:00",
+      "bars_held": 0,
+      "note": "Transition"
+    },
+    {
+      "id": "ff7be582",
+      "symbol": "QNTUSDT",
+      "strategy": "breakout",
+      "entry": 197.74882499999998,
+      "planned_entry": 197.65,
+      "stop": 190.527,
+      "target": 211.897,
+      "qty": 0.0648693,
+      "risk_usd": 0.5,
+      "fees": 0.012827827853572499,
+      "opened_at": "2026-10-25T18:21:55.524480+00:00",
+      "signal_bar": "2026-10-25 17:00:00+00:00",
+      "bars_held": 0,
+      "note": "Volatile trend"
+    }
+  ],
   "closed": [],
   "equity_history": [
     {
@@ -10,5 +43,8 @@
       "equity": 50.0
     }
   ],
-  "last_prices": {}
+  "last_prices": {
+    "ZECUSDT": 1232.45,
+    "QNTUSDT": 197.65
+  }
 }
