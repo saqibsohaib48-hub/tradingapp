@@ -1,7 +1,7 @@
 {
   "starting_balance": 50.0,
-  "cash": 13.536087963757737,
-  "peak_equity": 50.0,
+  "cash": 15.610092173789512,
+  "peak_equity": 50.1353,
   "positions": [
     {
       "id": "e412da6d",
@@ -16,23 +16,23 @@
       "fees": 0.024634941795240003,
       "opened_at": "2026-10-26T00:10:58.632463+00:00",
       "signal_bar": "2026-10-25 23:00:00+00:00",
-      "bars_held": 6,
+      "bars_held": 12,
       "note": "Clean trend"
     },
     {
-      "id": "af8d64e8",
+      "id": "1a24f672",
       "symbol": "QNTUSDT",
-      "strategy": "trend_pullback",
-      "entry": 190.305105,
-      "planned_entry": 190.21,
-      "stop": 182.289,
-      "target": 206.051,
-      "qty": 0.0580304,
-      "risk_usd": 0.49,
-      "fees": 0.011043481365192,
-      "opened_at": "2026-10-26T00:10:58.632463+00:00",
-      "signal_bar": "2026-10-25 23:00:00+00:00",
-      "bars_held": 6,
+      "strategy": "breakout",
+      "entry": 216.10799999999998,
+      "planned_entry": 216.0,
+      "stop": 205.64,
+      "target": 236.719,
+      "qty": 0.0456042,
+      "risk_usd": 0.5,
+      "fees": 0.009855432453599999,
+      "opened_at": "2026-10-26T12:49:47.644211+00:00",
+      "signal_bar": "2026-10-26 11:00:00+00:00",
+      "bars_held": 0,
       "note": "Volatile trend"
     }
   ],
@@ -78,6 +78,27 @@
       "closed_at": "2026-10-25T21:00:00+00:00",
       "pnl": -0.4998,
       "r_multiple": -1.0
+    },
+    {
+      "id": "af8d64e8",
+      "symbol": "QNTUSDT",
+      "strategy": "trend_pullback",
+      "entry": 190.305105,
+      "planned_entry": 190.21,
+      "stop": 182.289,
+      "target": 206.051,
+      "qty": 0.0580304,
+      "risk_usd": 0.49,
+      "fees": 0.0229947247046168,
+      "opened_at": "2026-10-26T00:10:58.632463+00:00",
+      "signal_bar": "2026-10-25 23:00:00+00:00",
+      "bars_held": 10,
+      "note": "Volatile trend",
+      "exit": 205.9479745,
+      "exit_reason": "target",
+      "closed_at": "2026-10-26T09:00:00+00:00",
+      "pnl": 0.8848,
+      "r_multiple": 1.81
     }
   ],
   "equity_history": [
@@ -96,11 +117,15 @@
     {
       "time": "2026-10-26T06:02:47.655467+00:00",
       "equity": 49.405
+    },
+    {
+      "time": "2026-10-26T12:49:47.644211+00:00",
+      "equity": 50.1353
     }
   ],
   "last_prices": {
     "ZECUSDT": 1213.76,
-    "QNTUSDT": 193.8,
-    "TRXUSDT": 0.3304
+    "QNTUSDT": 216.0,
+    "TRXUSDT": 0.3309
   }
 }
