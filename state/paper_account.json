@@ -1,8 +1,42 @@
 {
   "starting_balance": 50.0,
-  "cash": 29.478879949947626,
+  "cash": 13.536087963757737,
   "peak_equity": 50.0,
   "positions": [
+    {
+      "id": "e412da6d",
+      "symbol": "TRXUSDT",
+      "strategy": "trend_pullback",
+      "entry": 0.3305652,
+      "planned_entry": 0.3304,
+      "stop": 0.32939,
+      "target": 0.332419,
+      "qty": 74.5237,
+      "risk_usd": 0.15,
+      "fees": 0.024634941795240003,
+      "opened_at": "2026-10-26T00:10:58.632463+00:00",
+      "signal_bar": "2026-10-25 23:00:00+00:00",
+      "bars_held": 0,
+      "note": "Clean trend"
+    },
+    {
+      "id": "af8d64e8",
+      "symbol": "QNTUSDT",
+      "strategy": "trend_pullback",
+      "entry": 190.305105,
+      "planned_entry": 190.21,
+      "stop": 182.289,
+      "target": 206.051,
+      "qty": 0.0580304,
+      "risk_usd": 0.49,
+      "fees": 0.011043481365192,
+      "opened_at": "2026-10-26T00:10:58.632463+00:00",
+      "signal_bar": "2026-10-25 23:00:00+00:00",
+      "bars_held": 0,
+      "note": "Volatile trend"
+    }
+  ],
+  "closed": [
     {
       "id": "d9c130b4",
       "symbol": "ZECUSDT",
@@ -13,11 +47,16 @@
       "target": 1305.52,
       "qty": 0.00622253,
       "risk_usd": 0.25,
-      "fees": 0.00767279157704925,
+      "fees": 0.015110718830610454,
       "opened_at": "2026-10-25T18:21:55.524480+00:00",
       "signal_bar": "2026-10-25 17:00:00+00:00",
-      "bars_held": 3,
-      "note": "Transition"
+      "bars_held": 6,
+      "note": "Transition",
+      "exit": 1195.3220400000002,
+      "exit_reason": "stop",
+      "closed_at": "2026-10-25T23:00:00+00:00",
+      "pnl": -0.25,
+      "r_multiple": -1.0
     },
     {
       "id": "ff7be582",
@@ -29,14 +68,18 @@
       "target": 211.897,
       "qty": 0.0648693,
       "risk_usd": 0.5,
-      "fees": 0.012827827853572499,
+      "fees": 0.02518100129811195,
       "opened_at": "2026-10-25T18:21:55.524480+00:00",
       "signal_bar": "2026-10-25 17:00:00+00:00",
-      "bars_held": 3,
-      "note": "Volatile trend"
+      "bars_held": 4,
+      "note": "Volatile trend",
+      "exit": 190.4317365,
+      "exit_reason": "stop",
+      "closed_at": "2026-10-25T21:00:00+00:00",
+      "pnl": -0.4998,
+      "r_multiple": -1.0
     }
   ],
-  "closed": [],
   "equity_history": [
     {
       "time": "2026-10-25T10:08:54.677598+00:00",
@@ -45,10 +88,15 @@
     {
       "time": "2026-10-25T21:41:28.903337+00:00",
       "equity": 49.5749
+    },
+    {
+      "time": "2026-10-26T00:10:58.632463+00:00",
+      "equity": 49.2502
     }
   ],
   "last_prices": {
-    "ZECUSDT": 1216.92,
-    "QNTUSDT": 193.06
+    "ZECUSDT": 1213.76,
+    "QNTUSDT": 190.21,
+    "TRXUSDT": 0.3304
   }
 }
