@@ -1,23 +1,39 @@
 {
   "starting_balance": 50.0,
-  "cash": 24.974077479281355,
+  "cash": 18.41503634638072,
   "peak_equity": 50.1353,
   "positions": [
     {
-      "id": "e412da6d",
-      "symbol": "TRXUSDT",
+      "id": "c2144fae",
+      "symbol": "SOXLBUSDT",
       "strategy": "trend_pullback",
-      "entry": 0.3305652,
-      "planned_entry": 0.3304,
-      "stop": 0.32939,
-      "target": 0.332419,
-      "qty": 74.5237,
-      "risk_usd": 0.15,
-      "fees": 0.024634941795240003,
-      "opened_at": "2026-10-26T00:10:58.632463+00:00",
-      "signal_bar": "2026-10-25 23:00:00+00:00",
-      "bars_held": 23,
+      "entry": 91.21558499999999,
+      "planned_entry": 91.17,
+      "stop": 87.6378,
+      "target": 98.2345,
+      "qty": 0.260391,
+      "risk_usd": 0.99,
+      "fees": 0.023751717393734998,
+      "opened_at": "2026-10-27T04:53:32.523217+00:00",
+      "signal_bar": "2026-10-27 03:00:00+00:00",
+      "bars_held": 0,
       "note": "Clean trend"
+    },
+    {
+      "id": "317449cc",
+      "symbol": "CHIPUSDT",
+      "strategy": "trend_pullback",
+      "entry": 0.051415695,
+      "planned_entry": 0.05139,
+      "stop": 0.0480504,
+      "target": 0.0580693,
+      "qty": 141.724,
+      "risk_usd": 0.49,
+      "fees": 0.007286837958179999,
+      "opened_at": "2026-10-27T04:53:32.523217+00:00",
+      "signal_bar": "2026-10-27 03:00:00+00:00",
+      "bars_held": 0,
+      "note": "Volatile trend"
     }
   ],
   "closed": [
@@ -104,6 +120,27 @@
       "closed_at": "2026-10-26T17:00:00+00:00",
       "pnl": -0.5013,
       "r_multiple": -1.0
+    },
+    {
+      "id": "e412da6d",
+      "symbol": "TRXUSDT",
+      "strategy": "trend_pullback",
+      "entry": 0.3305652,
+      "planned_entry": 0.3304,
+      "stop": 0.32939,
+      "target": 0.332419,
+      "qty": 74.5237,
+      "risk_usd": 0.15,
+      "fees": 0.049170029657468514,
+      "opened_at": "2026-10-26T00:10:58.632463+00:00",
+      "signal_bar": "2026-10-25 23:00:00+00:00",
+      "bars_held": 25,
+      "note": "Clean trend",
+      "exit": 0.329225305,
+      "exit_reason": "stop",
+      "closed_at": "2026-10-27T00:00:00+00:00",
+      "pnl": -0.149,
+      "r_multiple": -0.99
     }
   ],
   "equity_history": [
@@ -134,11 +171,17 @@
     {
       "time": "2026-10-26T23:47:38.911913+00:00",
       "equity": 49.5445
+    },
+    {
+      "time": "2026-10-27T04:53:32.523217+00:00",
+      "equity": 49.4846
     }
   ],
   "last_prices": {
     "ZECUSDT": 1213.76,
     "QNTUSDT": 203.38,
-    "TRXUSDT": 0.3297
+    "TRXUSDT": 0.3291,
+    "SOXLBUSDT": 91.17,
+    "CHIPUSDT": 0.05139
   }
 }
