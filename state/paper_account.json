@@ -1,24 +1,8 @@
 {
   "starting_balance": 50.0,
-  "cash": 35.938941561985494,
+  "cash": 17.3134249806252,
   "peak_equity": 51.7757,
   "positions": [
-    {
-      "id": "317449cc",
-      "symbol": "CHIPUSDT",
-      "strategy": "trend_pullback",
-      "entry": 0.051415695,
-      "planned_entry": 0.05139,
-      "stop": 0.0480504,
-      "target": 0.0580693,
-      "qty": 141.724,
-      "risk_usd": 0.49,
-      "fees": 0.007286837958179999,
-      "opened_at": "2026-10-27T04:53:32.523217+00:00",
-      "signal_bar": "2026-10-27 03:00:00+00:00",
-      "bars_held": 35,
-      "note": "Volatile trend"
-    },
     {
       "id": "57020584",
       "symbol": "ZECUSDT",
@@ -32,8 +16,24 @@
       "fees": 0.00800910908496585,
       "opened_at": "2026-10-27T16:28:49.187172+00:00",
       "signal_bar": "2026-10-27 15:00:00+00:00",
-      "bars_held": 23,
+      "bars_held": 28,
       "note": "Transition"
+    },
+    {
+      "id": "f39f6e67",
+      "symbol": "DOGEUSDT",
+      "strategy": "trend_pullback",
+      "entry": 0.080250105,
+      "planned_entry": 0.08021,
+      "stop": 0.0790188,
+      "target": 0.0825925,
+      "qty": 316.508,
+      "risk_usd": 0.45,
+      "fees": 0.02539980023334,
+      "opened_at": "2026-10-28T20:59:01.382052+00:00",
+      "signal_bar": "2026-10-28 19:00:00+00:00",
+      "bars_held": 0,
+      "note": "Clean trend"
     }
   ],
   "closed": [
@@ -162,6 +162,27 @@
       "closed_at": "2026-10-27T15:00:00+00:00",
       "pnl": 1.7656,
       "r_multiple": 1.78
+    },
+    {
+      "id": "317449cc",
+      "symbol": "CHIPUSDT",
+      "strategy": "trend_pullback",
+      "entry": 0.051415695,
+      "planned_entry": 0.05139,
+      "stop": 0.0480504,
+      "target": 0.0580693,
+      "qty": 141.724,
+      "risk_usd": 0.49,
+      "fees": 0.014093327900335198,
+      "opened_at": "2026-10-27T04:53:32.523217+00:00",
+      "signal_bar": "2026-10-27 03:00:00+00:00",
+      "bars_held": 38,
+      "note": "Volatile trend",
+      "exit": 0.0480263748,
+      "exit_reason": "stop",
+      "closed_at": "2026-10-28T17:00:00+00:00",
+      "pnl": -0.4944,
+      "r_multiple": -1.01
     }
   ],
   "equity_history": [
@@ -220,13 +241,18 @@
     {
       "time": "2026-10-28T15:57:07.895122+00:00",
       "equity": 51.0113
+    },
+    {
+      "time": "2026-10-28T20:59:01.382052+00:00",
+      "equity": 50.7793
     }
   ],
   "last_prices": {
-    "ZECUSDT": 1277.85,
+    "ZECUSDT": 1299.25,
     "QNTUSDT": 203.38,
     "TRXUSDT": 0.3291,
     "SOXLBUSDT": 99.84,
-    "CHIPUSDT": 0.05055
+    "CHIPUSDT": 0.0498,
+    "DOGEUSDT": 0.08021
   }
 }
