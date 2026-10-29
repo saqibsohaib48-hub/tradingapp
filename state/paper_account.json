@@ -16,7 +16,7 @@
       "fees": 0.013758795259649998,
       "opened_at": "2026-10-29T06:58:24.097401+00:00",
       "signal_bar": "2026-10-29 05:00:00+00:00",
-      "bars_held": 0,
+      "bars_held": 8,
       "note": "Volatile trend"
     },
     {
@@ -32,7 +32,7 @@
       "fees": 0.008828377983,
       "opened_at": "2026-10-29T06:58:24.097401+00:00",
       "signal_bar": "2026-10-29 05:00:00+00:00",
-      "bars_held": 0,
+      "bars_held": 8,
       "note": "Volatile trend"
     }
   ],
@@ -295,6 +295,10 @@
     {
       "time": "2026-10-29T06:58:24.097401+00:00",
       "equity": 50.045
+    },
+    {
+      "time": "2026-10-29T14:10:01.630826+00:00",
+      "equity": 49.6257
     }
   ],
   "last_prices": {
@@ -304,7 +308,7 @@
     "SOXLBUSDT": 99.84,
     "CHIPUSDT": 0.0498,
     "DOGEUSDT": 0.07863,
-    "SKHYBUSDT": 162.75,
-    "PEPEUSDT": 5.05e-06
+    "SKHYBUSDT": 161.91,
+    "PEPEUSDT": 4.87e-06
   }
 }
