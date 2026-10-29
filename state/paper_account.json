@@ -1,39 +1,39 @@
 {
   "starting_balance": 50.0,
-  "cash": 17.3134249806252,
+  "cash": 27.43527187451983,
   "peak_equity": 51.7757,
   "positions": [
     {
-      "id": "57020584",
-      "symbol": "ZECUSDT",
-      "strategy": "breakout",
-      "entry": 1294.156755,
-      "planned_entry": 1293.51,
-      "stop": 1255.63,
-      "target": 1369.27,
-      "qty": 0.00618867,
-      "risk_usd": 0.26,
-      "fees": 0.00800910908496585,
-      "opened_at": "2026-10-27T16:28:49.187172+00:00",
-      "signal_bar": "2026-10-27 15:00:00+00:00",
-      "bars_held": 32,
-      "note": "Transition"
+      "id": "927c0f0c",
+      "symbol": "SKHYBUSDT",
+      "strategy": "trend_pullback",
+      "entry": 162.83137499999998,
+      "planned_entry": 162.75,
+      "stop": 157.308,
+      "target": 173.633,
+      "qty": 0.0844972,
+      "risk_usd": 0.5,
+      "fees": 0.013758795259649998,
+      "opened_at": "2026-10-29T06:58:24.097401+00:00",
+      "signal_bar": "2026-10-29 05:00:00+00:00",
+      "bars_held": 0,
+      "note": "Volatile trend"
     },
     {
-      "id": "f39f6e67",
-      "symbol": "DOGEUSDT",
+      "id": "baa4fffc",
+      "symbol": "PEPEUSDT",
       "strategy": "trend_pullback",
-      "entry": 0.080250105,
-      "planned_entry": 0.08021,
-      "stop": 0.0790188,
-      "target": 0.0825925,
-      "qty": 316.508,
-      "risk_usd": 0.45,
-      "fees": 0.02539980023334,
-      "opened_at": "2026-10-28T20:59:01.382052+00:00",
-      "signal_bar": "2026-10-28 19:00:00+00:00",
-      "bars_held": 4,
-      "note": "Clean trend"
+      "entry": 5.0525249999999995e-06,
+      "planned_entry": 5.05e-06,
+      "stop": 4.77848e-06,
+      "target": 5.59303e-06,
+      "qty": 1747320.0,
+      "risk_usd": 0.5,
+      "fees": 0.008828377983,
+      "opened_at": "2026-10-29T06:58:24.097401+00:00",
+      "signal_bar": "2026-10-29 05:00:00+00:00",
+      "bars_held": 0,
+      "note": "Volatile trend"
     }
   ],
   "closed": [
@@ -183,6 +183,48 @@
       "closed_at": "2026-10-28T17:00:00+00:00",
       "pnl": -0.4944,
       "r_multiple": -1.01
+    },
+    {
+      "id": "57020584",
+      "symbol": "ZECUSDT",
+      "strategy": "breakout",
+      "entry": 1294.156755,
+      "planned_entry": 1293.51,
+      "stop": 1255.63,
+      "target": 1369.27,
+      "qty": 0.00618867,
+      "risk_usd": 0.26,
+      "fees": 0.015775903457209802,
+      "opened_at": "2026-10-27T16:28:49.187172+00:00",
+      "signal_bar": "2026-10-27 15:00:00+00:00",
+      "bars_held": 34,
+      "note": "Transition",
+      "exit": 1255.0021850000003,
+      "exit_reason": "stop",
+      "closed_at": "2026-10-29T01:00:00+00:00",
+      "pnl": -0.2581,
+      "r_multiple": -0.99
+    },
+    {
+      "id": "f39f6e67",
+      "symbol": "DOGEUSDT",
+      "strategy": "trend_pullback",
+      "entry": 0.080250105,
+      "planned_entry": 0.08021,
+      "stop": 0.0790188,
+      "target": 0.0825925,
+      "qty": 316.508,
+      "risk_usd": 0.45,
+      "fees": 0.050397377542564806,
+      "opened_at": "2026-10-28T20:59:01.382052+00:00",
+      "signal_bar": "2026-10-28 19:00:00+00:00",
+      "bars_held": 6,
+      "note": "Clean trend",
+      "exit": 0.0789792906,
+      "exit_reason": "stop",
+      "closed_at": "2026-10-29T01:00:00+00:00",
+      "pnl": -0.4526,
+      "r_multiple": -1.01
     }
   ],
   "equity_history": [
@@ -249,14 +291,20 @@
     {
       "time": "2026-10-29T00:49:37.847352+00:00",
       "equity": 50.6747
+    },
+    {
+      "time": "2026-10-29T06:58:24.097401+00:00",
+      "equity": 50.045
     }
   ],
   "last_prices": {
-    "ZECUSDT": 1311.01,
+    "ZECUSDT": 1252.11,
     "QNTUSDT": 203.38,
     "TRXUSDT": 0.3291,
     "SOXLBUSDT": 99.84,
     "CHIPUSDT": 0.0498,
-    "DOGEUSDT": 0.07977
+    "DOGEUSDT": 0.07863,
+    "SKHYBUSDT": 162.75,
+    "PEPEUSDT": 5.05e-06
   }
 }
