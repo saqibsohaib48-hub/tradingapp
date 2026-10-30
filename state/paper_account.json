@@ -1,41 +1,8 @@
 {
   "starting_balance": 50.0,
-  "cash": 11.511892774088615,
+  "cash": 49.870221521495935,
   "peak_equity": 51.7757,
-  "positions": [
-    {
-      "id": "3c91b0da",
-      "symbol": "TRXUSDT",
-      "strategy": "trend_pullback",
-      "entry": 0.35257619999999995,
-      "planned_entry": 0.3524,
-      "stop": 0.340436,
-      "target": 0.376328,
-      "qty": 38.8061,
-      "risk_usd": 0.5,
-      "fees": 0.013682107274819999,
-      "opened_at": "2026-10-30T00:50:55.960917+00:00",
-      "signal_bar": "2026-10-29 23:00:00+00:00",
-      "bars_held": 0,
-      "note": "Volatile trend"
-    },
-    {
-      "id": "efd6ccf2",
-      "symbol": "UUSDT",
-      "strategy": "trend_pullback",
-      "entry": 1.0013003999999999,
-      "planned_entry": 1.0008,
-      "stop": 1.0002,
-      "target": 1.00199,
-      "qty": 25.1999,
-      "risk_usd": 0.09,
-      "fees": 0.02523266994996,
-      "opened_at": "2026-10-30T00:50:55.960917+00:00",
-      "signal_bar": "2026-10-29 23:00:00+00:00",
-      "bars_held": 0,
-      "note": "Volatile trend"
-    }
-  ],
+  "positions": [],
   "closed": [
     {
       "id": "d9c130b4",
@@ -267,6 +234,48 @@
       "closed_at": "2026-10-29T20:00:00+00:00",
       "pnl": -0.5004,
       "r_multiple": -1.0
+    },
+    {
+      "id": "3c91b0da",
+      "symbol": "TRXUSDT",
+      "strategy": "trend_pullback",
+      "entry": 0.35257619999999995,
+      "planned_entry": 0.3524,
+      "stop": 0.340436,
+      "target": 0.376328,
+      "qty": 38.8061,
+      "risk_usd": 0.5,
+      "fees": 0.0268864952376902,
+      "opened_at": "2026-10-30T00:50:55.960917+00:00",
+      "signal_bar": "2026-10-29 23:00:00+00:00",
+      "bars_held": 6,
+      "note": "Volatile trend",
+      "exit": 0.340265782,
+      "exit_reason": "stop",
+      "closed_at": "2026-10-30T05:00:00+00:00",
+      "pnl": -0.5046,
+      "r_multiple": -1.01
+    },
+    {
+      "id": "efd6ccf2",
+      "symbol": "UUSDT",
+      "strategy": "trend_pullback",
+      "entry": 1.0013003999999999,
+      "planned_entry": 1.0008,
+      "stop": 1.0002,
+      "target": 1.00199,
+      "qty": 25.1999,
+      "risk_usd": 0.09,
+      "fees": 0.05042500745997,
+      "opened_at": "2026-10-30T00:50:55.960917+00:00",
+      "signal_bar": "2026-10-29 23:00:00+00:00",
+      "bars_held": 1,
+      "note": "Volatile trend",
+      "exit": 0.9996999000000001,
+      "exit_reason": "stop",
+      "closed_at": "2026-10-30T00:00:00+00:00",
+      "pnl": -0.0908,
+      "r_multiple": -1.01
     }
   ],
   "equity_history": [
@@ -349,17 +358,21 @@
     {
       "time": "2026-10-30T00:50:55.960917+00:00",
       "equity": 50.4656
+    },
+    {
+      "time": "2026-10-30T07:01:29.287387+00:00",
+      "equity": 49.8702
     }
   ],
   "last_prices": {
     "ZECUSDT": 1252.11,
     "QNTUSDT": 203.38,
-    "TRXUSDT": 0.3524,
+    "TRXUSDT": 0.3367,
     "SOXLBUSDT": 99.84,
     "CHIPUSDT": 0.0498,
     "DOGEUSDT": 0.07863,
     "SKHYBUSDT": 154.53,
     "PEPEUSDT": 5.25e-06,
-    "UUSDT": 1.0008
+    "UUSDT": 1.0004
   }
 }
