@@ -1,6 +1,6 @@
 {
   "starting_balance": 50.0,
-  "cash": 24.90019829743002,
+  "cash": 17.48358762660066,
   "peak_equity": 51.7757,
   "positions": [
     {
@@ -16,8 +16,24 @@
       "fees": 0.024945078145919997,
       "opened_at": "2026-10-31T12:14:32.217647+00:00",
       "signal_bar": "2026-10-31 11:00:00+00:00",
-      "bars_held": 0,
+      "bars_held": 5,
       "note": "Clean trend"
+    },
+    {
+      "id": "37c0fc41",
+      "symbol": "NEARUSDT",
+      "strategy": "breakout",
+      "entry": 4.530263999999999,
+      "planned_entry": 4.528,
+      "stop": 4.38891,
+      "target": 4.80617,
+      "qty": 1.63549,
+      "risk_usd": 0.25,
+      "fees": 0.0074092014693599995,
+      "opened_at": "2026-10-31T17:40:08.519228+00:00",
+      "signal_bar": "2026-10-31 16:00:00+00:00",
+      "bars_held": 0,
+      "note": "Transition"
     }
   ],
   "closed": [
@@ -379,6 +395,10 @@
     {
       "time": "2026-10-30T07:01:29.287387+00:00",
       "equity": 49.8702
+    },
+    {
+      "time": "2026-10-31T17:40:08.519228+00:00",
+      "equity": 49.8761
     }
   ],
   "last_prices": {
@@ -391,6 +411,7 @@
     "SKHYBUSDT": 154.53,
     "PEPEUSDT": 5.25e-06,
     "UUSDT": 1.0004,
-    "XPLUSDT": 0.08059
+    "XPLUSDT": 0.08073,
+    "NEARUSDT": 4.528
   }
 }
