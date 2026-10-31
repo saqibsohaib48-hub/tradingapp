@@ -1,8 +1,25 @@
 {
   "starting_balance": 50.0,
-  "cash": 49.870221521495935,
+  "cash": 24.90019829743002,
   "peak_equity": 51.7757,
-  "positions": [],
+  "positions": [
+    {
+      "id": "8a238643",
+      "symbol": "XPLUSDT",
+      "strategy": "trend_pullback",
+      "entry": 0.08063029499999999,
+      "planned_entry": 0.08059,
+      "stop": 0.0778798,
+      "target": 0.0860104,
+      "qty": 309.376,
+      "risk_usd": 0.91,
+      "fees": 0.024945078145919997,
+      "opened_at": "2026-10-31T12:14:32.217647+00:00",
+      "signal_bar": "2026-10-31 11:00:00+00:00",
+      "bars_held": 0,
+      "note": "Clean trend"
+    }
+  ],
   "closed": [
     {
       "id": "d9c130b4",
@@ -373,6 +390,7 @@
     "DOGEUSDT": 0.07863,
     "SKHYBUSDT": 154.53,
     "PEPEUSDT": 5.25e-06,
-    "UUSDT": 1.0004
+    "UUSDT": 1.0004,
+    "XPLUSDT": 0.08059
   }
 }
