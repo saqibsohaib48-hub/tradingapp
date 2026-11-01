@@ -1,39 +1,39 @@
 {
   "starting_balance": 50.0,
-  "cash": 17.48358762660066,
+  "cash": 2.6001304521635724,
   "peak_equity": 51.7757,
   "positions": [
     {
-      "id": "8a238643",
-      "symbol": "XPLUSDT",
+      "id": "9e5d1365",
+      "symbol": "QNTUSDT",
       "strategy": "trend_pullback",
-      "entry": 0.08063029499999999,
-      "planned_entry": 0.08059,
-      "stop": 0.0778798,
-      "target": 0.0860104,
-      "qty": 309.376,
-      "risk_usd": 0.91,
-      "fees": 0.024945078145919997,
-      "opened_at": "2026-10-31T12:14:32.217647+00:00",
-      "signal_bar": "2026-10-31 11:00:00+00:00",
-      "bars_held": 13,
+      "entry": 200.51020499999998,
+      "planned_entry": 200.41,
+      "stop": 194.342,
+      "target": 212.546,
+      "qty": 0.121511,
+      "risk_usd": 0.81,
+      "fees": 0.024364195519754998,
+      "opened_at": "2026-11-01T07:26:36.153823+00:00",
+      "signal_bar": "2026-11-01 06:00:00+00:00",
+      "bars_held": 0,
       "note": "Clean trend"
     },
     {
-      "id": "37c0fc41",
-      "symbol": "NEARUSDT",
-      "strategy": "breakout",
-      "entry": 4.530263999999999,
-      "planned_entry": 4.528,
-      "stop": 4.38891,
-      "target": 4.80617,
-      "qty": 1.63549,
-      "risk_usd": 0.25,
-      "fees": 0.0074092014693599995,
-      "opened_at": "2026-10-31T17:40:08.519228+00:00",
-      "signal_bar": "2026-10-31 16:00:00+00:00",
-      "bars_held": 8,
-      "note": "Transition"
+      "id": "0d904084",
+      "symbol": "ZROUSDT",
+      "strategy": "trend_pullback",
+      "entry": 1.8379184999999998,
+      "planned_entry": 1.837,
+      "stop": 1.75995,
+      "target": 1.99109,
+      "qty": 11.806,
+      "risk_usd": 0.97,
+      "fees": 0.021698465810999993,
+      "opened_at": "2026-11-01T07:26:36.153823+00:00",
+      "signal_bar": "2026-11-01 06:00:00+00:00",
+      "bars_held": 0,
+      "note": "Clean trend"
     }
   ],
   "closed": [
@@ -309,6 +309,48 @@
       "closed_at": "2026-10-30T00:00:00+00:00",
       "pnl": -0.0908,
       "r_multiple": -1.01
+    },
+    {
+      "id": "8a238643",
+      "symbol": "XPLUSDT",
+      "strategy": "trend_pullback",
+      "entry": 0.08063029499999999,
+      "planned_entry": 0.08059,
+      "stop": 0.0778798,
+      "target": 0.0860104,
+      "qty": 309.376,
+      "risk_usd": 0.91,
+      "fees": 0.0490271720802176,
+      "opened_at": "2026-10-31T12:14:32.217647+00:00",
+      "signal_bar": "2026-10-31 11:00:00+00:00",
+      "bars_held": 17,
+      "note": "Clean trend",
+      "exit": 0.0778408601,
+      "exit_reason": "stop",
+      "closed_at": "2026-11-01T04:00:00+00:00",
+      "pnl": -0.912,
+      "r_multiple": -1.0
+    },
+    {
+      "id": "37c0fc41",
+      "symbol": "NEARUSDT",
+      "strategy": "breakout",
+      "entry": 4.530263999999999,
+      "planned_entry": 4.528,
+      "stop": 4.38891,
+      "target": 4.80617,
+      "qty": 1.63549,
+      "risk_usd": 0.25,
+      "fees": 0.01458363087605205,
+      "opened_at": "2026-10-31T17:40:08.519228+00:00",
+      "signal_bar": "2026-10-31 16:00:00+00:00",
+      "bars_held": 12,
+      "note": "Transition",
+      "exit": 4.386715545,
+      "exit_reason": "stop",
+      "closed_at": "2026-11-01T04:00:00+00:00",
+      "pnl": -0.2494,
+      "r_multiple": -1.0
     }
   ],
   "equity_history": [
@@ -407,11 +449,15 @@
     {
       "time": "2026-11-01T01:00:47.049452+00:00",
       "equity": 49.9784
+    },
+    {
+      "time": "2026-11-01T07:26:36.153823+00:00",
+      "equity": 48.7089
     }
   ],
   "last_prices": {
     "ZECUSDT": 1252.11,
-    "QNTUSDT": 203.38,
+    "QNTUSDT": 200.41,
     "TRXUSDT": 0.3367,
     "SOXLBUSDT": 99.84,
     "CHIPUSDT": 0.0498,
@@ -419,7 +465,8 @@
     "SKHYBUSDT": 154.53,
     "PEPEUSDT": 5.25e-06,
     "UUSDT": 1.0004,
-    "XPLUSDT": 0.08162,
-    "NEARUSDT": 4.429
+    "XPLUSDT": 0.07365,
+    "NEARUSDT": 4.382,
+    "ZROUSDT": 1.837
   }
 }
