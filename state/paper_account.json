@@ -1,24 +1,8 @@
 {
   "starting_balance": 50.0,
-  "cash": 0.002350406139871808,
+  "cash": 23.581630939342254,
   "peak_equity": 51.7757,
   "positions": [
-    {
-      "id": "9e5d1365",
-      "symbol": "QNTUSDT",
-      "strategy": "trend_pullback",
-      "entry": 200.51020499999998,
-      "planned_entry": 200.41,
-      "stop": 194.342,
-      "target": 212.546,
-      "qty": 0.121511,
-      "risk_usd": 0.81,
-      "fees": 0.024364195519754998,
-      "opened_at": "2026-11-01T07:26:36.153823+00:00",
-      "signal_bar": "2026-11-01 06:00:00+00:00",
-      "bars_held": 32,
-      "note": "Clean trend"
-    },
     {
       "id": "9962a2aa",
       "symbol": "TRXUSDT",
@@ -32,7 +16,7 @@
       "fees": 0.023321271908549997,
       "opened_at": "2026-11-02T15:37:46.275929+00:00",
       "signal_bar": "2026-11-02 14:00:00+00:00",
-      "bars_held": 0,
+      "bars_held": 8,
       "note": "Clean trend"
     }
   ],
@@ -372,6 +356,27 @@
       "closed_at": "2026-11-02T06:00:00+00:00",
       "pnl": -0.9734,
       "r_multiple": -1.0
+    },
+    {
+      "id": "9e5d1365",
+      "symbol": "QNTUSDT",
+      "strategy": "trend_pullback",
+      "entry": 200.51020499999998,
+      "planned_entry": 200.41,
+      "stop": 194.342,
+      "target": 212.546,
+      "qty": 0.121511,
+      "risk_usd": 0.81,
+      "fees": 0.047967078936374,
+      "opened_at": "2026-11-01T07:26:36.153823+00:00",
+      "signal_bar": "2026-11-01 06:00:00+00:00",
+      "bars_held": 37,
+      "note": "Clean trend",
+      "exit": 194.244829,
+      "exit_reason": "stop",
+      "closed_at": "2026-11-02T19:00:00+00:00",
+      "pnl": -0.8093,
+      "r_multiple": -1.0
     }
   ],
   "equity_history": [
@@ -494,12 +499,16 @@
     {
       "time": "2026-11-02T15:37:46.275929+00:00",
       "equity": 47.993
+    },
+    {
+      "time": "2026-11-02T23:26:43.539095+00:00",
+      "equity": 46.9205
     }
   ],
   "last_prices": {
     "ZECUSDT": 1252.11,
-    "QNTUSDT": 202.83,
-    "TRXUSDT": 0.319,
+    "QNTUSDT": 195.07,
+    "TRXUSDT": 0.3194,
     "SOXLBUSDT": 99.84,
     "CHIPUSDT": 0.0498,
     "DOGEUSDT": 0.07863,
