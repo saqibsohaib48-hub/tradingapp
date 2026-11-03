@@ -1,6 +1,6 @@
 {
   "starting_balance": 50.0,
-  "cash": 23.581630939342254,
+  "cash": 0.002371945489240801,
   "peak_equity": 51.7757,
   "positions": [
     {
@@ -16,8 +16,24 @@
       "fees": 0.023321271908549997,
       "opened_at": "2026-11-02T15:37:46.275929+00:00",
       "signal_bar": "2026-11-02 14:00:00+00:00",
-      "bars_held": 15,
+      "bars_held": 24,
       "note": "Clean trend"
+    },
+    {
+      "id": "d80bc974",
+      "symbol": "XAUTUSDT",
+      "strategy": "trend_pullback",
+      "entry": 3941.499765,
+      "planned_entry": 3939.53,
+      "stop": 3909.18,
+      "target": 4000.23,
+      "qty": 0.00597633,
+      "risk_usd": 0.25,
+      "fees": 0.02355570329056245,
+      "opened_at": "2026-11-03T15:00:31.450488+00:00",
+      "signal_bar": "2026-11-03 14:00:00+00:00",
+      "bars_held": 0,
+      "note": "Volatile trend"
     }
   ],
   "closed": [
@@ -507,12 +523,16 @@
     {
       "time": "2026-11-03T06:36:07.954120+00:00",
       "equity": 47.0374
+    },
+    {
+      "time": "2026-11-03T15:00:31.450488+00:00",
+      "equity": 47.1543
     }
   ],
   "last_prices": {
     "ZECUSDT": 1252.11,
     "QNTUSDT": 195.07,
-    "TRXUSDT": 0.321,
+    "TRXUSDT": 0.3226,
     "SOXLBUSDT": 99.84,
     "CHIPUSDT": 0.0498,
     "DOGEUSDT": 0.07863,
@@ -521,6 +541,7 @@
     "UUSDT": 1.0004,
     "XPLUSDT": 0.07365,
     "NEARUSDT": 4.382,
-    "ZROUSDT": 1.782
+    "ZROUSDT": 1.782,
+    "XAUTUSDT": 3939.53
   }
 }
