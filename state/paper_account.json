@@ -1,39 +1,39 @@
 {
   "starting_balance": 50.0,
-  "cash": 0.07061017222405042,
+  "cash": 26.23244901651467,
   "peak_equity": 51.7757,
   "positions": [
     {
-      "id": "d80bc974",
-      "symbol": "XAUTUSDT",
+      "id": "c9be0a6e",
+      "symbol": "RUNEUSDT",
       "strategy": "trend_pullback",
-      "entry": 3941.499765,
-      "planned_entry": 3939.53,
-      "stop": 3909.18,
-      "target": 4000.23,
-      "qty": 0.00597633,
-      "risk_usd": 0.25,
-      "fees": 0.02355570329056245,
-      "opened_at": "2026-11-03T15:00:31.450488+00:00",
-      "signal_bar": "2026-11-03 14:00:00+00:00",
-      "bars_held": 10,
-      "note": "Volatile trend"
+      "entry": 0.630315,
+      "planned_entry": 0.63,
+      "stop": 0.592977,
+      "target": 0.704047,
+      "qty": 24.2501,
+      "risk_usd": 0.94,
+      "fees": 0.0152852017815,
+      "opened_at": "2026-11-04T09:00:48.155234+00:00",
+      "signal_bar": "2026-11-04 08:00:00+00:00",
+      "bars_held": 0,
+      "note": "Clean trend"
     },
     {
-      "id": "75b4b507",
-      "symbol": "ETHUSDT",
-      "strategy": "trend_pullback",
-      "entry": 2288.18352,
-      "planned_entry": 2287.04,
-      "stop": 2258.2,
-      "target": 2344.72,
-      "qty": 0.0102794,
-      "risk_usd": 0.37,
-      "fees": 0.023521153675488,
-      "opened_at": "2026-11-03T20:56:05.802335+00:00",
-      "signal_bar": "2026-11-03 19:00:00+00:00",
-      "bars_held": 5,
-      "note": "Clean trend"
+      "id": "4bfd9ac3",
+      "symbol": "PEPEUSDT",
+      "strategy": "breakout",
+      "entry": 5.092545e-06,
+      "planned_entry": 5.09e-06,
+      "stop": 4.89012e-06,
+      "target": 5.48977e-06,
+      "qty": 1095930.0,
+      "risk_usd": 0.24,
+      "fees": 0.00558107284185,
+      "opened_at": "2026-11-04T09:00:48.155234+00:00",
+      "signal_bar": "2026-11-04 08:00:00+00:00",
+      "bars_held": 0,
+      "note": "Transition"
     }
   ],
   "closed": [
@@ -414,6 +414,48 @@
       "closed_at": "2026-11-03T17:00:00+00:00",
       "pnl": 0.2683,
       "r_multiple": 1.12
+    },
+    {
+      "id": "d80bc974",
+      "symbol": "XAUTUSDT",
+      "strategy": "trend_pullback",
+      "entry": 3941.499765,
+      "planned_entry": 3939.53,
+      "stop": 3909.18,
+      "target": 4000.23,
+      "qty": 0.00597633,
+      "risk_usd": 0.25,
+      "fees": 0.0474504444991845,
+      "opened_at": "2026-11-03T15:00:31.450488+00:00",
+      "signal_bar": "2026-11-03 14:00:00+00:00",
+      "bars_held": 16,
+      "note": "Volatile trend",
+      "exit": 3998.229885,
+      "exit_reason": "target",
+      "closed_at": "2026-11-04T06:00:00+00:00",
+      "pnl": 0.2916,
+      "r_multiple": 1.17
+    },
+    {
+      "id": "75b4b507",
+      "symbol": "ETHUSDT",
+      "strategy": "trend_pullback",
+      "entry": 2288.18352,
+      "planned_entry": 2287.04,
+      "stop": 2258.2,
+      "target": 2344.72,
+      "qty": 0.0102794,
+      "risk_usd": 0.37,
+      "fees": 0.046722488284948,
+      "opened_at": "2026-11-03T20:56:05.802335+00:00",
+      "signal_bar": "2026-11-03 19:00:00+00:00",
+      "bars_held": 7,
+      "note": "Clean trend",
+      "exit": 2257.0709,
+      "exit_reason": "stop",
+      "closed_at": "2026-11-04T02:00:00+00:00",
+      "pnl": -0.3665,
+      "r_multiple": -0.99
     }
   ],
   "equity_history": [
@@ -556,6 +598,10 @@
     {
       "time": "2026-11-04T01:15:59.520936+00:00",
       "equity": 46.9351
+    },
+    {
+      "time": "2026-11-04T09:00:48.155234+00:00",
+      "equity": 47.1196
     }
   ],
   "last_prices": {
@@ -566,12 +612,13 @@
     "CHIPUSDT": 0.0498,
     "DOGEUSDT": 0.07863,
     "SKHYBUSDT": 154.53,
-    "PEPEUSDT": 5.25e-06,
+    "PEPEUSDT": 5.09e-06,
     "UUSDT": 1.0004,
     "XPLUSDT": 0.07365,
     "NEARUSDT": 4.382,
     "ZROUSDT": 1.782,
-    "XAUTUSDT": 3929.19,
-    "ETHUSDT": 2274.68
+    "XAUTUSDT": 4023.64,
+    "ETHUSDT": 2323.13,
+    "RUNEUSDT": 0.63
   }
 }
