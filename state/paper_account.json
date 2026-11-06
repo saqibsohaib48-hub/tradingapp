@@ -1,6 +1,6 @@
 {
   "starting_balance": 50.0,
-  "cash": 22.471846498881717,
+  "cash": 13.09667927703129,
   "peak_equity": 51.7757,
   "positions": [
     {
@@ -16,6 +16,22 @@
       "fees": 0.022512395522475,
       "opened_at": "2026-11-05T21:56:09.087024+00:00",
       "signal_bar": "2026-11-05 20:00:00+00:00",
+      "bars_held": 5,
+      "note": "Volatile trend"
+    },
+    {
+      "id": "b259a354",
+      "symbol": "INJUSDT",
+      "strategy": "trend_pullback",
+      "entry": 8.278137,
+      "planned_entry": 8.274,
+      "stop": 7.90076,
+      "target": 9.02048,
+      "qty": 1.13139,
+      "risk_usd": 0.45,
+      "fees": 0.009365801420429998,
+      "opened_at": "2026-11-06T02:17:34.254578+00:00",
+      "signal_bar": "2026-11-06 01:00:00+00:00",
       "bars_held": 0,
       "note": "Volatile trend"
     }
@@ -690,6 +706,10 @@
     {
       "time": "2026-11-05T21:56:09.087024+00:00",
       "equity": 45.0068
+    },
+    {
+      "time": "2026-11-06T02:17:34.254578+00:00",
+      "equity": 44.9775
     }
   ],
   "last_prices": {
@@ -701,13 +721,13 @@
     "DOGEUSDT": 0.07863,
     "SKHYBUSDT": 154.53,
     "PEPEUSDT": 5.16e-06,
-    "UUSDT": 1.0005,
+    "UUSDT": 1.0007,
     "XPLUSDT": 0.07365,
     "NEARUSDT": 3.868,
     "ZROUSDT": 1.782,
     "XAUTUSDT": 4023.64,
     "ETHUSDT": 2323.13,
     "RUNEUSDT": 0.608,
-    "INJUSDT": 8.208
+    "INJUSDT": 8.274
   }
 }
