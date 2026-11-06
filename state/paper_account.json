@@ -16,7 +16,7 @@
       "fees": 0.022512395522475,
       "opened_at": "2026-11-05T21:56:09.087024+00:00",
       "signal_bar": "2026-11-05 20:00:00+00:00",
-      "bars_held": 13,
+      "bars_held": 20,
       "note": "Volatile trend"
     },
     {
@@ -32,7 +32,7 @@
       "fees": 0.009365801420429998,
       "opened_at": "2026-11-06T02:17:34.254578+00:00",
       "signal_bar": "2026-11-06 01:00:00+00:00",
-      "bars_held": 8,
+      "bars_held": 15,
       "note": "Volatile trend"
     }
   ],
@@ -714,6 +714,10 @@
     {
       "time": "2026-11-06T10:43:17.369830+00:00",
       "equity": 44.8955
+    },
+    {
+      "time": "2026-11-06T17:54:36.242077+00:00",
+      "equity": 44.9951
     }
   ],
   "last_prices": {
@@ -725,13 +729,13 @@
     "DOGEUSDT": 0.07863,
     "SKHYBUSDT": 154.53,
     "PEPEUSDT": 5.16e-06,
-    "UUSDT": 1.0008,
+    "UUSDT": 1.0005,
     "XPLUSDT": 0.07365,
     "NEARUSDT": 3.868,
     "ZROUSDT": 1.782,
     "XAUTUSDT": 4023.64,
     "ETHUSDT": 2323.13,
     "RUNEUSDT": 0.608,
-    "INJUSDT": 8.212
+    "INJUSDT": 8.306
   }
 }
