@@ -1,6 +1,6 @@
 {
   "starting_balance": 50.0,
-  "cash": 15.53923153412995,
+  "cash": 12.70488991117045,
   "peak_equity": 51.7757,
   "positions": [
     {
@@ -16,23 +16,23 @@
       "fees": 0.009365801420429998,
       "opened_at": "2026-11-06T02:17:34.254578+00:00",
       "signal_bar": "2026-11-06 01:00:00+00:00",
-      "bars_held": 31,
+      "bars_held": 38,
       "note": "Volatile trend"
     },
     {
-      "id": "c322e658",
-      "symbol": "ZECUSDT",
+      "id": "e158a68c",
+      "symbol": "SPCXBUSDT",
       "strategy": "trend_pullback",
-      "entry": 1351.5054149999999,
-      "planned_entry": 1350.83,
-      "stop": 1293.85,
-      "target": 1464.79,
-      "qty": 0.0147936,
-      "risk_usd": 0.9,
-      "fees": 0.019993630507344,
-      "opened_at": "2026-11-07T02:43:12.232414+00:00",
-      "signal_bar": "2026-11-07 01:00:00+00:00",
-      "bars_held": 7,
+      "entry": 134.82737999999998,
+      "planned_entry": 134.76,
+      "stop": 133.081,
+      "target": 138.117,
+      "qty": 0.162611,
+      "risk_usd": 0.34,
+      "fees": 0.02192441508918,
+      "opened_at": "2026-11-07T16:21:08.645412+00:00",
+      "signal_bar": "2026-11-07 15:00:00+00:00",
+      "bars_held": 0,
       "note": "Clean trend"
     }
   ],
@@ -561,6 +561,27 @@
       "closed_at": "2026-11-07T01:00:00+00:00",
       "pnl": -0.0787,
       "r_multiple": -0.98
+    },
+    {
+      "id": "c322e658",
+      "symbol": "ZECUSDT",
+      "strategy": "trend_pullback",
+      "entry": 1351.5054149999999,
+      "planned_entry": 1350.83,
+      "stop": 1293.85,
+      "target": 1464.79,
+      "qty": 0.0147936,
+      "risk_usd": 0.9,
+      "fees": 0.039124759517664004,
+      "opened_at": "2026-11-07T02:43:12.232414+00:00",
+      "signal_bar": "2026-11-07 01:00:00+00:00",
+      "bars_held": 9,
+      "note": "Clean trend",
+      "exit": 1293.203075,
+      "exit_reason": "stop",
+      "closed_at": "2026-11-07T10:00:00+00:00",
+      "pnl": -0.9016,
+      "r_multiple": -1.0
     }
   ],
   "equity_history": [
@@ -751,10 +772,14 @@
     {
       "time": "2026-11-07T09:57:06.386431+00:00",
       "equity": 44.4578
+    },
+    {
+      "time": "2026-11-07T16:21:08.645412+00:00",
+      "equity": 43.8313
     }
   ],
   "last_prices": {
-    "ZECUSDT": 1323.93,
+    "ZECUSDT": 1258.67,
     "QNTUSDT": 195.07,
     "TRXUSDT": 0.3241,
     "SOXLBUSDT": 99.84,
@@ -769,6 +794,7 @@
     "XAUTUSDT": 4023.64,
     "ETHUSDT": 2323.13,
     "RUNEUSDT": 0.608,
-    "INJUSDT": 8.249
+    "INJUSDT": 8.114,
+    "SPCXBUSDT": 134.76
   }
 }
