@@ -1,6 +1,6 @@
 {
   "starting_balance": 50.0,
-  "cash": 10.388846831497661,
+  "cash": 0.002093647856540315,
   "peak_equity": 51.7757,
   "positions": [
     {
@@ -16,23 +16,23 @@
       "fees": 0.02192441508918,
       "opened_at": "2026-11-07T16:21:08.645412+00:00",
       "signal_bar": "2026-11-07 15:00:00+00:00",
-      "bars_held": 27,
+      "bars_held": 31,
       "note": "Clean trend"
     },
     {
-      "id": "fb8fa87f",
-      "symbol": "BMTUSDT",
+      "id": "c2a7d887",
+      "symbol": "UUSDT",
       "strategy": "trend_pullback",
-      "entry": 0.02535267,
-      "planned_entry": 0.02534,
-      "stop": 0.0234786,
-      "target": 0.0290628,
-      "qty": 453.878,
-      "risk_usd": 0.88,
-      "fees": 0.011507019154260001,
-      "opened_at": "2026-11-08T15:02:29.435582+00:00",
-      "signal_bar": "2026-11-08 14:00:00+00:00",
-      "bars_held": 4,
+      "entry": 1.0011002999999998,
+      "planned_entry": 1.0006,
+      "stop": 1.0003,
+      "target": 1.0012,
+      "qty": 20.9831,
+      "risk_usd": 0.07,
+      "fees": 0.021006187704929995,
+      "opened_at": "2026-11-08T23:39:11.696514+00:00",
+      "signal_bar": "2026-11-08 22:00:00+00:00",
+      "bars_held": 0,
       "note": "Clean trend"
     }
   ],
@@ -603,6 +603,27 @@
       "closed_at": "2026-11-08T01:00:00+00:00",
       "pnl": -0.1727,
       "r_multiple": -0.38
+    },
+    {
+      "id": "fb8fa87f",
+      "symbol": "BMTUSDT",
+      "strategy": "trend_pullback",
+      "entry": 0.02535267,
+      "planned_entry": 0.02534,
+      "stop": 0.0234786,
+      "target": 0.0290628,
+      "qty": 453.878,
+      "risk_usd": 0.88,
+      "fees": 0.0221581109550546,
+      "opened_at": "2026-11-08T15:02:29.435582+00:00",
+      "signal_bar": "2026-11-08 14:00:00+00:00",
+      "bars_held": 5,
+      "note": "Clean trend",
+      "exit": 0.0234668607,
+      "exit_reason": "stop",
+      "closed_at": "2026-11-08T19:00:00+00:00",
+      "pnl": -0.8781,
+      "r_multiple": -1.0
     }
   ],
   "equity_history": [
@@ -817,6 +838,10 @@
     {
       "time": "2026-11-08T19:33:22.448516+00:00",
       "equity": 43.3167
+    },
+    {
+      "time": "2026-11-08T23:39:11.696514+00:00",
+      "equity": 42.8387
     }
   ],
   "last_prices": {
@@ -828,7 +853,7 @@
     "DOGEUSDT": 0.07863,
     "SKHYBUSDT": 154.53,
     "PEPEUSDT": 5.16e-06,
-    "UUSDT": 1.0001,
+    "UUSDT": 1.0006,
     "XPLUSDT": 0.07365,
     "NEARUSDT": 3.868,
     "ZROUSDT": 1.782,
@@ -836,7 +861,7 @@
     "ETHUSDT": 2323.13,
     "RUNEUSDT": 0.608,
     "INJUSDT": 8.087,
-    "SPCXBUSDT": 135.59,
-    "BMTUSDT": 0.02397
+    "SPCXBUSDT": 134.12,
+    "BMTUSDT": 0.02488
   }
 }
