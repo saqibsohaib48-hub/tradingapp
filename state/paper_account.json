@@ -1,24 +1,8 @@
 {
   "starting_balance": 50.0,
-  "cash": 12.70488991117045,
+  "cash": 21.90737300491192,
   "peak_equity": 51.7757,
   "positions": [
-    {
-      "id": "b259a354",
-      "symbol": "INJUSDT",
-      "strategy": "trend_pullback",
-      "entry": 8.278137,
-      "planned_entry": 8.274,
-      "stop": 7.90076,
-      "target": 9.02048,
-      "qty": 1.13139,
-      "risk_usd": 0.45,
-      "fees": 0.009365801420429998,
-      "opened_at": "2026-11-06T02:17:34.254578+00:00",
-      "signal_bar": "2026-11-06 01:00:00+00:00",
-      "bars_held": 46,
-      "note": "Volatile trend"
-    },
     {
       "id": "e158a68c",
       "symbol": "SPCXBUSDT",
@@ -32,7 +16,7 @@
       "fees": 0.02192441508918,
       "opened_at": "2026-11-07T16:21:08.645412+00:00",
       "signal_bar": "2026-11-07 15:00:00+00:00",
-      "bars_held": 8,
+      "bars_held": 15,
       "note": "Clean trend"
     }
   ],
@@ -582,6 +566,27 @@
       "closed_at": "2026-11-07T10:00:00+00:00",
       "pnl": -0.9016,
       "r_multiple": -1.0
+    },
+    {
+      "id": "b259a354",
+      "symbol": "INJUSDT",
+      "strategy": "trend_pullback",
+      "entry": 8.278137,
+      "planned_entry": 8.274,
+      "stop": 7.90076,
+      "target": 9.02048,
+      "qty": 1.13139,
+      "risk_usd": 0.45,
+      "fees": 0.01857749620896,
+      "opened_at": "2026-11-06T02:17:34.254578+00:00",
+      "signal_bar": "2026-11-06 01:00:00+00:00",
+      "bars_held": 48,
+      "note": "Volatile trend",
+      "exit": 8.141927,
+      "exit_reason": "time stop",
+      "closed_at": "2026-11-08T01:00:00+00:00",
+      "pnl": -0.1727,
+      "r_multiple": -0.38
     }
   ],
   "equity_history": [
@@ -784,6 +789,10 @@
     {
       "time": "2026-11-08T00:27:09.520268+00:00",
       "equity": 44.0065
+    },
+    {
+      "time": "2026-11-08T07:13:17.658670+00:00",
+      "equity": 43.8842
     }
   ],
   "last_prices": {
@@ -802,7 +811,7 @@
     "XAUTUSDT": 4023.64,
     "ETHUSDT": 2323.13,
     "RUNEUSDT": 0.608,
-    "INJUSDT": 8.262,
-    "SPCXBUSDT": 135.01
+    "INJUSDT": 8.087,
+    "SPCXBUSDT": 135.15
   }
 }
