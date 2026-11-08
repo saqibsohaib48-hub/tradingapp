@@ -1,6 +1,6 @@
 {
   "starting_balance": 50.0,
-  "cash": 21.90737300491192,
+  "cash": 10.388846831497661,
   "peak_equity": 51.7757,
   "positions": [
     {
@@ -16,7 +16,23 @@
       "fees": 0.02192441508918,
       "opened_at": "2026-11-07T16:21:08.645412+00:00",
       "signal_bar": "2026-11-07 15:00:00+00:00",
-      "bars_held": 15,
+      "bars_held": 23,
+      "note": "Clean trend"
+    },
+    {
+      "id": "fb8fa87f",
+      "symbol": "BMTUSDT",
+      "strategy": "trend_pullback",
+      "entry": 0.02535267,
+      "planned_entry": 0.02534,
+      "stop": 0.0234786,
+      "target": 0.0290628,
+      "qty": 453.878,
+      "risk_usd": 0.88,
+      "fees": 0.011507019154260001,
+      "opened_at": "2026-11-08T15:02:29.435582+00:00",
+      "signal_bar": "2026-11-08 14:00:00+00:00",
+      "bars_held": 0,
       "note": "Clean trend"
     }
   ],
@@ -793,6 +809,10 @@
     {
       "time": "2026-11-08T07:13:17.658670+00:00",
       "equity": 43.8842
+    },
+    {
+      "time": "2026-11-08T15:02:29.435582+00:00",
+      "equity": 43.9086
     }
   ],
   "last_prices": {
@@ -812,6 +832,7 @@
     "ETHUSDT": 2323.13,
     "RUNEUSDT": 0.608,
     "INJUSDT": 8.087,
-    "SPCXBUSDT": 135.15
+    "SPCXBUSDT": 135.3,
+    "BMTUSDT": 0.02534
   }
 }
