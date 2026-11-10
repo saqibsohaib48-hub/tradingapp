@@ -1,6 +1,6 @@
 {
   "starting_balance": 50.0,
-  "cash": 11.314221097029916,
+  "cash": 0.29146592867626353,
   "peak_equity": 51.7757,
   "positions": [
     {
@@ -16,24 +16,24 @@
       "fees": 0.021006187704929995,
       "opened_at": "2026-11-08T23:39:11.696514+00:00",
       "signal_bar": "2026-11-08 22:00:00+00:00",
-      "bars_held": 17,
+      "bars_held": 25,
       "note": "Clean trend"
     },
     {
-      "id": "3061ed45",
-      "symbol": "AVAXUSDT",
-      "strategy": "breakout",
-      "entry": 9.001498499999999,
-      "planned_entry": 8.997,
-      "stop": 8.66265,
-      "target": 9.6657,
-      "qty": 1.19334,
-      "risk_usd": 0.43,
-      "fees": 0.01074184821999,
-      "opened_at": "2026-11-09T16:08:03.274772+00:00",
-      "signal_bar": "2026-11-09 15:00:00+00:00",
+      "id": "1a5e93b6",
+      "symbol": "CRCLBUSDT",
+      "strategy": "trend_pullback",
+      "entry": 68.17407,
+      "planned_entry": 68.14,
+      "stop": 66.3836,
+      "target": 71.6528,
+      "qty": 0.312779,
+      "risk_usd": 0.61,
+      "fees": 0.02132341744053,
+      "opened_at": "2026-11-10T00:39:52.854905+00:00",
+      "signal_bar": "2026-11-09 23:00:00+00:00",
       "bars_held": 0,
-      "note": "Volatile trend"
+      "note": "Clean trend"
     }
   ],
   "closed": [
@@ -666,6 +666,27 @@
       "closed_at": "2026-11-09T07:00:00+00:00",
       "pnl": -0.3609,
       "r_multiple": -1.0
+    },
+    {
+      "id": "3061ed45",
+      "symbol": "AVAXUSDT",
+      "strategy": "breakout",
+      "entry": 9.001498499999999,
+      "planned_entry": 8.997,
+      "stop": 8.66265,
+      "target": 9.6657,
+      "qty": 1.19334,
+      "risk_usd": 0.43,
+      "fees": 0.021074166227614502,
+      "opened_at": "2026-11-09T16:08:03.274772+00:00",
+      "signal_bar": "2026-11-09 15:00:00+00:00",
+      "bars_held": 2,
+      "note": "Volatile trend",
+      "exit": 8.658318675,
+      "exit_reason": "stop",
+      "closed_at": "2026-11-09T17:00:00+00:00",
+      "pnl": -0.4306,
+      "r_multiple": -1.0
     }
   ],
   "equity_history": [
@@ -892,6 +913,10 @@
     {
       "time": "2026-11-09T16:08:03.274772+00:00",
       "equity": 43.0646
+    },
+    {
+      "time": "2026-11-10T00:39:52.854905+00:00",
+      "equity": 42.6298
     }
   ],
   "last_prices": {
@@ -903,7 +928,7 @@
     "DOGEUSDT": 0.07863,
     "SKHYBUSDT": 154.53,
     "PEPEUSDT": 5.16e-06,
-    "UUSDT": 1.0007,
+    "UUSDT": 1.0005,
     "XPLUSDT": 0.07365,
     "NEARUSDT": 3.868,
     "ZROUSDT": 1.782,
@@ -913,6 +938,7 @@
     "INJUSDT": 8.087,
     "SPCXBUSDT": 142.62,
     "BMTUSDT": 0.02488,
-    "AVAXUSDT": 8.997
+    "AVAXUSDT": 8.656,
+    "CRCLBUSDT": 68.14
   }
 }
