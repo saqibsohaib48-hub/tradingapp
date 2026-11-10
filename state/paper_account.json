@@ -16,7 +16,7 @@
       "fees": 0.021006187704929995,
       "opened_at": "2026-11-08T23:39:11.696514+00:00",
       "signal_bar": "2026-11-08 22:00:00+00:00",
-      "bars_held": 25,
+      "bars_held": 33,
       "note": "Clean trend"
     },
     {
@@ -32,7 +32,7 @@
       "fees": 0.02132341744053,
       "opened_at": "2026-11-10T00:39:52.854905+00:00",
       "signal_bar": "2026-11-09 23:00:00+00:00",
-      "bars_held": 0,
+      "bars_held": 8,
       "note": "Clean trend"
     }
   ],
@@ -917,6 +917,10 @@
     {
       "time": "2026-11-10T00:39:52.854905+00:00",
       "equity": 42.6298
+    },
+    {
+      "time": "2026-11-10T08:19:59.724855+00:00",
+      "equity": 42.552
     }
   ],
   "last_prices": {
@@ -928,7 +932,7 @@
     "DOGEUSDT": 0.07863,
     "SKHYBUSDT": 154.53,
     "PEPEUSDT": 5.16e-06,
-    "UUSDT": 1.0005,
+    "UUSDT": 1.0007,
     "XPLUSDT": 0.07365,
     "NEARUSDT": 3.868,
     "ZROUSDT": 1.782,
@@ -939,6 +943,6 @@
     "SPCXBUSDT": 142.62,
     "BMTUSDT": 0.02488,
     "AVAXUSDT": 8.656,
-    "CRCLBUSDT": 68.14
+    "CRCLBUSDT": 67.98
   }
 }
