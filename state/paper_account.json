@@ -1,22 +1,22 @@
 {
   "starting_balance": 50.0,
-  "cash": 31.248631266232323,
+  "cash": 34.40313325823658,
   "peak_equity": 51.7757,
   "positions": [
     {
-      "id": "69ae75be",
+      "id": "5358550e",
       "symbol": "GRAMUSDT",
       "strategy": "trend_pullback",
-      "entry": 1.128564,
-      "planned_entry": 1.128,
-      "stop": 1.08291,
-      "target": 1.21818,
-      "qty": 8.76256,
+      "entry": 1.2186089999999998,
+      "planned_entry": 1.218,
+      "stop": 1.15344,
+      "target": 1.34713,
+      "qty": 6.15158,
       "risk_usd": 0.42,
-      "fees": 0.00988910976384,
-      "opened_at": "2026-11-11T02:43:57.888851+00:00",
-      "signal_bar": "2026-11-11 01:00:00+00:00",
-      "bars_held": 8,
+      "fees": 0.007496370752219999,
+      "opened_at": "2026-11-11T18:38:22.439101+00:00",
+      "signal_bar": "2026-11-11 17:00:00+00:00",
+      "bars_held": 0,
       "note": "Volatile trend"
     }
   ],
@@ -734,6 +734,27 @@
       "closed_at": "2026-11-11T08:00:00+00:00",
       "pnl": -0.8403,
       "r_multiple": -1.0
+    },
+    {
+      "id": "69ae75be",
+      "symbol": "GRAMUSDT",
+      "strategy": "trend_pullback",
+      "entry": 1.128564,
+      "planned_entry": 1.128,
+      "stop": 1.08291,
+      "target": 1.21818,
+      "qty": 8.76256,
+      "risk_usd": 0.42,
+      "fees": 0.020558147916969603,
+      "opened_at": "2026-11-11T02:43:57.888851+00:00",
+      "signal_bar": "2026-11-11 01:00:00+00:00",
+      "bars_held": 9,
+      "note": "Volatile trend",
+      "exit": 1.21757091,
+      "exit_reason": "target",
+      "closed_at": "2026-11-11T10:00:00+00:00",
+      "pnl": 0.7594,
+      "r_multiple": 1.81
     }
   ],
   "equity_history": [
@@ -984,6 +1005,10 @@
     {
       "time": "2026-11-11T10:45:11.013370+00:00",
       "equity": 41.641
+    },
+    {
+      "time": "2026-11-11T18:38:22.439101+00:00",
+      "equity": 41.907
     }
   ],
   "last_prices": {
@@ -1008,6 +1033,6 @@
     "AVAXUSDT": 8.656,
     "CRCLBUSDT": 64.65,
     "ONEUSDT": 0.001556,
-    "GRAMUSDT": 1.186
+    "GRAMUSDT": 1.218
   }
 }
