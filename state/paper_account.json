@@ -1,24 +1,8 @@
 {
   "starting_balance": 50.0,
-  "cash": 25.547555916439446,
+  "cash": 31.248631266232323,
   "peak_equity": 51.7757,
   "positions": [
-    {
-      "id": "ebbd989f",
-      "symbol": "ONEUSDT",
-      "strategy": "trend_pullback",
-      "entry": 0.0018019005,
-      "planned_entry": 0.001801,
-      "stop": 0.00157436,
-      "target": 0.00225428,
-      "qty": 3626.64,
-      "risk_usd": 0.84,
-      "fees": 0.00653484442932,
-      "opened_at": "2026-11-10T16:59:14.546266+00:00",
-      "signal_bar": "2026-11-10 15:00:00+00:00",
-      "bars_held": 10,
-      "note": "Clean trend"
-    },
     {
       "id": "69ae75be",
       "symbol": "GRAMUSDT",
@@ -32,7 +16,7 @@
       "fees": 0.00988910976384,
       "opened_at": "2026-11-11T02:43:57.888851+00:00",
       "signal_bar": "2026-11-11 01:00:00+00:00",
-      "bars_held": 0,
+      "bars_held": 8,
       "note": "Volatile trend"
     }
   ],
@@ -729,6 +713,27 @@
       "closed_at": "2026-11-10T22:00:00+00:00",
       "pnl": -0.063,
       "r_multiple": -0.9
+    },
+    {
+      "id": "ebbd989f",
+      "symbol": "ONEUSDT",
+      "strategy": "trend_pullback",
+      "entry": 0.0018019005,
+      "planned_entry": 0.001801,
+      "stop": 0.00157436,
+      "target": 0.00225428,
+      "qty": 3626.64,
+      "risk_usd": 0.84,
+      "fees": 0.012241626561244801,
+      "opened_at": "2026-11-10T16:59:14.546266+00:00",
+      "signal_bar": "2026-11-10 15:00:00+00:00",
+      "bars_held": 17,
+      "note": "Clean trend",
+      "exit": 0.00157357282,
+      "exit_reason": "stop",
+      "closed_at": "2026-11-11T08:00:00+00:00",
+      "pnl": -0.8403,
+      "r_multiple": -1.0
     }
   ],
   "equity_history": [
@@ -975,6 +980,10 @@
     {
       "time": "2026-11-11T02:43:57.888851+00:00",
       "equity": 42.4206
+    },
+    {
+      "time": "2026-11-11T10:45:11.013370+00:00",
+      "equity": 41.641
     }
   ],
   "last_prices": {
@@ -998,7 +1007,7 @@
     "BMTUSDT": 0.02488,
     "AVAXUSDT": 8.656,
     "CRCLBUSDT": 64.65,
-    "ONEUSDT": 0.001923,
-    "GRAMUSDT": 1.128
+    "ONEUSDT": 0.001556,
+    "GRAMUSDT": 1.186
   }
 }
