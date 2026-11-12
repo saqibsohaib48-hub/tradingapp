@@ -1,6 +1,6 @@
 {
   "starting_balance": 50.0,
-  "cash": 34.40313325823658,
+  "cash": 22.830777908157557,
   "peak_equity": 51.7757,
   "positions": [
     {
@@ -16,6 +16,22 @@
       "fees": 0.007496370752219999,
       "opened_at": "2026-11-11T18:38:22.439101+00:00",
       "signal_bar": "2026-11-11 17:00:00+00:00",
+      "bars_held": 7,
+      "note": "Volatile trend"
+    },
+    {
+      "id": "2a499b07",
+      "symbol": "MUBUSDT",
+      "strategy": "trend_pullback",
+      "entry": 790.3249649999999,
+      "planned_entry": 789.93,
+      "stop": 763.778,
+      "target": 842.234,
+      "qty": 0.0146279,
+      "risk_usd": 0.42,
+      "fees": 0.0115607945555235,
+      "opened_at": "2026-11-12T01:29:02.597792+00:00",
+      "signal_bar": "2026-11-12 00:00:00+00:00",
       "bars_held": 0,
       "note": "Volatile trend"
     }
@@ -1009,6 +1025,10 @@
     {
       "time": "2026-11-11T18:38:22.439101+00:00",
       "equity": 41.907
+    },
+    {
+      "time": "2026-11-12T01:29:02.597792+00:00",
+      "equity": 41.6681
     }
   ],
   "last_prices": {
@@ -1033,6 +1053,7 @@
     "AVAXUSDT": 8.656,
     "CRCLBUSDT": 64.65,
     "ONEUSDT": 0.001556,
-    "GRAMUSDT": 1.218
+    "GRAMUSDT": 1.181,
+    "MUBUSDT": 789.93
   }
 }
