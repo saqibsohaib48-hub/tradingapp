@@ -1,25 +1,8 @@
 {
   "starting_balance": 50.0,
-  "cash": 33.986492998282365,
+  "cash": 41.07133176356878,
   "peak_equity": 51.7757,
-  "positions": [
-    {
-      "id": "5358550e",
-      "symbol": "GRAMUSDT",
-      "strategy": "trend_pullback",
-      "entry": 1.2186089999999998,
-      "planned_entry": 1.218,
-      "stop": 1.15344,
-      "target": 1.34713,
-      "qty": 6.15158,
-      "risk_usd": 0.42,
-      "fees": 0.007496370752219999,
-      "opened_at": "2026-11-11T18:38:22.439101+00:00",
-      "signal_bar": "2026-11-11 17:00:00+00:00",
-      "bars_held": 24,
-      "note": "Volatile trend"
-    }
-  ],
+  "positions": [],
   "closed": [
     {
       "id": "d9c130b4",
@@ -776,6 +759,27 @@
       "closed_at": "2026-11-12T14:00:00+00:00",
       "pnl": -0.4166,
       "r_multiple": -0.99
+    },
+    {
+      "id": "5358550e",
+      "symbol": "GRAMUSDT",
+      "strategy": "trend_pullback",
+      "entry": 1.2186089999999998,
+      "planned_entry": 1.218,
+      "stop": 1.15344,
+      "target": 1.34713,
+      "qty": 6.15158,
+      "risk_usd": 0.42,
+      "fees": 0.0145883014482024,
+      "opened_at": "2026-11-11T18:38:22.439101+00:00",
+      "signal_bar": "2026-11-11 17:00:00+00:00",
+      "bars_held": 25,
+      "note": "Volatile trend",
+      "exit": 1.15286328,
+      "exit_reason": "stop",
+      "closed_at": "2026-11-12T18:00:00+00:00",
+      "pnl": -0.419,
+      "r_multiple": -1.0
     }
   ],
   "equity_history": [
@@ -1042,6 +1046,10 @@
     {
       "time": "2026-11-12T18:11:56.347798+00:00",
       "equity": 41.5283
+    },
+    {
+      "time": "2026-11-13T00:11:32.079879+00:00",
+      "equity": 41.0713
     }
   ],
   "last_prices": {
@@ -1066,7 +1074,7 @@
     "AVAXUSDT": 8.656,
     "CRCLBUSDT": 64.65,
     "ONEUSDT": 0.001556,
-    "GRAMUSDT": 1.226,
+    "GRAMUSDT": 1.138,
     "MUBUSDT": 795.33
   }
 }
